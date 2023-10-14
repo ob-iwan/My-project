@@ -1096,8 +1096,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xPosition: 1
   yPosition: 1
-  xSpeed: 1000
-  ySpeed: 1000
+  xSpeed: 3
+  ySpeed: 3
 --- !u!50 &1428497980
 Rigidbody2D:
   serializedVersion: 4
