@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ball.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: f25c8165b7d335a4db2b2926b0737719
+  - enabled: 1
+    path: Assets/Scenes/ballNormal1.unity
+    guid: 2039249af6d2b2d42a4881802a44840d
+  - enabled: 1
+    path: Assets/Scenes/ballNormal2.unity
+    guid: 230b33f69b97c314d9f49eb294922028
   m_configObjects: {}
