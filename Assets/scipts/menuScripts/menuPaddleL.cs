@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class paddleRAI : MonoBehaviour
+public class menuPaddleL : MonoBehaviour
 {
     private float yPosition;
     public float ySpeed = 1f;
@@ -10,13 +10,13 @@ public class paddleRAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector3(7f, yPosition, 0f);
+        transform.position = new Vector3(-7f, yPosition, 0f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(7f, yPosition, 0f);
+        transform.position = new Vector3(-7f, yPosition, 0f);
 
         yPosition = yPosition + ySpeed * Time.deltaTime;
 
